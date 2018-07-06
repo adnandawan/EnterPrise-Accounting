@@ -1,0 +1,74 @@
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\bin\Debug\BDJ.Enterprise.exe.config
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\bin\Debug\BDJ.Enterprise.exe
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\bin\Debug\BDJ.Enterprise.pdb
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.csprojResolveAssemblyReference.cache
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Form1.resources
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Properties.Resources.resources
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.csproj.GenerateResource.Cache
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.exe
+c:\users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.pdb
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmDashboard.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmCity.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.frmTest.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmNewEdit.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmCityNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmHead.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmHeadNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProduct.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductPrice.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductPriceNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductImage.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductImageNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmLedger.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmLedgerNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmBrand.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmBrandNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmUnit.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmUnitNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmVoucher.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmVoucherNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmFormula.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmFormulaNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductManual.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductManualNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmTransaction.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmTransactionNew.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmCashFlow.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\bin\Debug\BDJ.Enterprise.exe.config
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.exe
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.pdb
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\bin\Debug\BDJ.Enterprise.exe
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\bin\Debug\BDJ.Enterprise.pdb
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.csprojResolveAssemblyReference.cache
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Form1.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.frmTest.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmBrand.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmBrandNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmCashFlow.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmCity.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmCityNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmDashboard.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmFormula.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmFormulaNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmHead.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmHeadNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmLedger.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmLedgerNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmNewEdit.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProduct.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductImage.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductImageNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductManual.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductManualNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductPrice.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmProductPriceNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmTransaction.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmTransactionNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmUnit.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmUnitNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmVoucher.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Presentation.frmVoucherNew.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.Properties.Resources.resources
+D:\.net project\BDJ.Enterprise\BDJ.Enterprise\obj\Debug\BDJ.Enterprise.csproj.GenerateResource.Cache

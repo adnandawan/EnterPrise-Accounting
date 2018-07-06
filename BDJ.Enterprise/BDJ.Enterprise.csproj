@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E4E730FD-021A-4EA4-8975-82958D2F5C30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BDJ.Enterprise</RootNamespace>
+    <AssemblyName>BDJ.Enterprise</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\City.cs" />
+    <Compile Include="DAL\Category.cs" />
+    <Compile Include="DAL\Brand.cs" />
+    <Compile Include="DAL\productManual.cs" />
+    <Compile Include="DAL\ProductImage.cs" />
+    <Compile Include="DAL\Reports.cs" />
+    <Compile Include="DAL\Voucher.cs" />
+    <Compile Include="DAL\Unit.cs" />
+    <Compile Include="DAL\SalesDetails.cs" />
+    <Compile Include="DAL\Sales.cs" />
+    <Compile Include="DAL\PurchaseDetails.cs" />
+    <Compile Include="DAL\Purchase.cs" />
+    <Compile Include="DAL\ProductPrice.cs" />
+    <Compile Include="DAL\Production.cs" />
+    <Compile Include="DAL\Product.cs" />
+    <Compile Include="DAL\Ledger.cs" />
+    <Compile Include="DAL\JournalDetails.cs" />
+    <Compile Include="DAL\Journal.cs" />
+    <Compile Include="DAL\Head.cs" />
+    <Compile Include="DAL\Formula Details.cs" />
+    <Compile Include="DAL\Formula.cs" />
+    <Compile Include="DAL\Damage.cs" />
+    <Compile Include="DAL\Country.cs" />
+    <Compile Include="DAL\IDatabase.cs" />
+    <Compile Include="DAL\MyBase.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTest.Designer.cs">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyControls\FileImage.cs" />
+    <Compile Include="MyControls\Helper.cs" />
+    <Compile Include="MyControls\MyCombo.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyControls\MyGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBrand.Designer.cs">
+      <DependentUpon>frmBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmBrandNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmBrandNew.Designer.cs">
+      <DependentUpon>frmBrandNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCashFlow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCashFlow.Designer.cs">
+      <DependentUpon>frmCashFlow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCity.Designer.cs">
+      <DependentUpon>frmCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmCityNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmCityNew.Designer.cs">
+      <DependentUpon>frmCityNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmFormula.Designer.cs">
+      <DependentUpon>frmFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmFormulaNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmFormulaNew.Designer.cs">
+      <DependentUpon>frmFormulaNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmHead.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmHead.Designer.cs">
+      <DependentUpon>frmHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmHeadNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmHeadNew.Designer.cs">
+      <DependentUpon>frmHeadNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmLedger.Designer.cs">
+      <DependentUpon>frmLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmLedgerNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmLedgerNew.Designer.cs">
+      <DependentUpon>frmLedgerNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmNewEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmNewEdit.Designer.cs">
+      <DependentUpon>frmNewEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProduct.Designer.cs">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProductImage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProductImage.Designer.cs">
+      <DependentUpon>frmProductImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProductImageNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProductImageNew.Designer.cs">
+      <DependentUpon>frmProductImageNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProductManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProductManual.Designer.cs">
+      <DependentUpon>frmProductManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProductManualNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProductManualNew.Designer.cs">
+      <DependentUpon>frmProductManualNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProductNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProductNew.Designer.cs">
+      <DependentUpon>frmProductNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProductPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProductPrice.Designer.cs">
+      <DependentUpon>frmProductPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmProductPriceNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmProductPriceNew.Designer.cs">
+      <DependentUpon>frmProductPriceNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmTransaction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmTransaction.Designer.cs">
+      <DependentUpon>frmTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmTransactionNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmTransactionNew.Designer.cs">
+      <DependentUpon>frmTransactionNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmUnit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmUnit.Designer.cs">
+      <DependentUpon>frmUnit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmUnitNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmUnitNew.Designer.cs">
+      <DependentUpon>frmUnitNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmVoucher.Designer.cs">
+      <DependentUpon>frmVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\frmVoucherNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\frmVoucherNew.Designer.cs">
+      <DependentUpon>frmVoucherNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTest.resx">
+      <DependentUpon>frmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBrand.resx">
+      <DependentUpon>frmBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmBrandNew.resx">
+      <DependentUpon>frmBrandNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCashFlow.resx">
+      <DependentUpon>frmCashFlow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCity.resx">
+      <DependentUpon>frmCity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmCityNew.resx">
+      <DependentUpon>frmCityNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmFormula.resx">
+      <DependentUpon>frmFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmFormulaNew.resx">
+      <DependentUpon>frmFormulaNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmHead.resx">
+      <DependentUpon>frmHead.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmHeadNew.resx">
+      <DependentUpon>frmHeadNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmLedger.resx">
+      <DependentUpon>frmLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmLedgerNew.resx">
+      <DependentUpon>frmLedgerNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmNewEdit.resx">
+      <DependentUpon>frmNewEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProduct.resx">
+      <DependentUpon>frmProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProductImage.resx">
+      <DependentUpon>frmProductImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProductImageNew.resx">
+      <DependentUpon>frmProductImageNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProductManual.resx">
+      <DependentUpon>frmProductManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProductManualNew.resx">
+      <DependentUpon>frmProductManualNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProductNew.resx">
+      <DependentUpon>frmProductNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProductPrice.resx">
+      <DependentUpon>frmProductPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmProductPriceNew.resx">
+      <DependentUpon>frmProductPriceNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmTransaction.resx">
+      <DependentUpon>frmTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmTransactionNew.resx">
+      <DependentUpon>frmTransactionNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmUnit.resx">
+      <DependentUpon>frmUnit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmUnitNew.resx">
+      <DependentUpon>frmUnitNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmVoucher.resx">
+      <DependentUpon>frmVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\frmVoucherNew.resx">
+      <DependentUpon>frmVoucherNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

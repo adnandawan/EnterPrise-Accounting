@@ -1,0 +1,9 @@
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\bin\Debug\TestProject.exe.config
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\bin\Debug\TestProject.exe
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\bin\Debug\TestProject.pdb
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\obj\Debug\TestProject.Form1.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\obj\Debug\TestProject.Properties.Resources.resources
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\obj\Debug\TestProject.csproj.GenerateResource.Cache
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\obj\Debug\TestProject.exe
+C:\Users\ad\documents\visual studio 2015\Projects\BDJ.Enterprise\TestProject\obj\Debug\TestProject.pdb
